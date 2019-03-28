@@ -2,10 +2,9 @@
 
 <html>
   <head>
-  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -125,21 +124,6 @@
           <div class="suite-Bank-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.Bank.testcases.BankManagerLoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginAsBankManager">
-                  </a> <!-- loginAsBankManager -->
-                  <span class="method-name">loginAsBankManager</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Bank-class-passed -->
-          <div class="suite-Bank-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.Bank.testcases.AddCustomerTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -153,6 +137,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Bank-class-passed -->
+          <div class="suite-Bank-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Bank.testcases.BankManagerLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAsBankManager">
+                  </a> <!-- loginAsBankManager -->
+                  <span class="method-name">loginAsBankManager</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bank-class-passed -->
         </div> <!-- panel Bank -->
         <div panel-name="test-xml-Bank" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -162,7 +161,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Bank&quot;&gt;
+&lt;suite name=&quot;Bank&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
     &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
@@ -222,11 +221,11 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addCustomer')
 data.setCell(0, 2, 'com.Bank.testcases.AddCustomerTest')
-data.setCell(0, 3, 4007);
+data.setCell(0, 3, 3998);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginAsBankManager')
 data.setCell(1, 2, 'com.Bank.testcases.BankManagerLoginTest')
-data.setCell(1, 3, 738);
+data.setCell(1, 3, 767);
 window.suiteTableData['Bank']= { tableData: data, tableDiv: 'times-div-Bank'}
 return data;
 }
@@ -246,13 +245,11 @@ return data;
               <span class="reporter-method-name">loginAsBankManager</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"><a target="_blank" href=D:\Selenium\Screens\loginAsBankManager.png><img src=D:\Selenium\Screens\loginAsBankManager.png height=200 width=200>Passed Screenshot</a><br></span>
-                <span class="reporter-method-output"><a target="_blank" href=D:\Selenium\Screens\loginAsBankManager.png><img src=D:\Selenium\Screens\loginAsBankManager.png height=200 width=200>Passed Screenshot</a><br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">addCustomer(Dima, Tiurin, BP88000, Customer added successfully with customer id :)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><a target="_blank" href=D:\Selenium\Screens\addCustomer.png><img src=D:\Selenium\Screens\addCustomer.png height=200 width=200>Passed Screenshot</a><br></span>
                 <span class="reporter-method-output"><a target="_blank" href=D:\Selenium\Screens\addCustomer.png><img src=D:\Selenium\Screens\addCustomer.png height=200 width=200>Passed Screenshot</a><br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -281,18 +278,18 @@ return data;
               <div class="chronological-class-name">com.Bank.testcases.BankManagerLoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginAsBankManager</span>
-                <span class="method-start">12044 ms</span>
+                <span class="method-start">5469 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.Bank.testcases.AddCustomerTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">addCustomer(Dima, Tiurin, BP88000, Customer added successfully with customer id :)</span>
-                <span class="method-start">13250 ms</span>
+                <span class="method-start">6736 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17656 ms</span>
+                <span class="method-start">11155 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Bank]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.Bank.listeners.CustomListeners"/>
+  </listeners>
+  <test name="AddCustomer(failed)">
+    <classes>
+      <class name="com.Bank.testcases.AddCustomerTest">
+        <methods>
+          <include name="addCustomer" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Bank.testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- AddCustomer(failed) -->
+</suite> <!-- Failed suite [Bank] -->

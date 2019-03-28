@@ -2,22 +2,18 @@ package com.Bank.testcases;
 
 import org.testng.annotations.Test;
 import java.io.IOException;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
-
-
 import com.Bank.base.TestBase;
 
 public class AddCustomerTest extends TestBase{
 	
 	@Test(dataProvider="getData")
 	public void addCustomer(String firstname, String lastname, String postcode,String alerttext) throws InterruptedException {
-		
-		driver.findElement(By.cssSelector(OR.getProperty("addCustBtn"))).click();
+		driver.findElement(By.cssSelector(OR.getProperty("addCustBtn"))).click();		
 		driver.findElement(By.cssSelector(OR.getProperty("firstname"))).sendKeys(firstname);
 		driver.findElement(By.cssSelector(OR.getProperty("lastname"))).sendKeys(lastname);
 		driver.findElement(By.cssSelector(OR.getProperty("postcode"))).sendKeys(postcode);
