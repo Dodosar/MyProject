@@ -2,39 +2,39 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\loginAsBankManagerFri_Mar_29_14_42_16_EET_2019.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\loginAsBankManagerFri_Mar_29_14_42_16_EET_2019.png height=200 width=200>Passed Screenshot</a><br>]]>
+      <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\target\surefire-reports\html\loginAsBankManagerFri_Mar_29_16_18_09_EET_2019.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\target\surefire-reports\html\loginAsBankManagerFri_Mar_29_16_18_09_EET_2019.png height=200 width=200>Start Test Screenshot</a><br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\loginAsBankManagerFri_Mar_29_14_42_17_EET_2019.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\loginAsBankManagerFri_Mar_29_14_42_17_EET_2019.png height=200 width=200>Passed Screenshot</a><br>]]>
+      <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\target\surefire-reports\html\loginAsBankManagerFri_Mar_29_16_18_09_EET_2019.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\target\surefire-reports\html\loginAsBankManagerFri_Mar_29_16_18_09_EET_2019.png height=200 width=200>Passed Screenshot</a><br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\addCustomerFri_Mar_29_14_42_17_EET_2019.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\addCustomerFri_Mar_29_14_42_17_EET_2019.png height=200 width=200>Passed Screenshot</a><br>]]>
+      <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\target\surefire-reports\html\addCustomerFri_Mar_29_16_18_10_EET_2019.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\target\surefire-reports\html\addCustomerFri_Mar_29_16_18_10_EET_2019.png height=200 width=200>Start Test Screenshot</a><br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\addCustomerFri_Mar_29_14_42_18_EET_2019.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\addCustomerFri_Mar_29_14_42_18_EET_2019.png height=200 width=200>Passed Screenshot</a><br>]]>
+      <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\target\surefire-reports\html\addCustomerFri_Mar_29_16_18_11_EET_2019.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\target\surefire-reports\html\addCustomerFri_Mar_29_16_18_11_EET_2019.png height=200 width=200>Passed Screenshot</a><br>]]>
     </line>
   </reporter-output>
-  <suite name="Bank" duration-ms="2785" started-at="2019-03-29T12:42:16Z" finished-at="2019-03-29T12:42:19Z">
+  <suite name="Bank" duration-ms="2908" started-at="2019-03-29T14:18:09Z" finished-at="2019-03-29T14:18:12Z">
     <groups>
     </groups>
-    <test name="LogIN" duration-ms="1185" started-at="2019-03-29T12:42:16Z" finished-at="2019-03-29T12:42:17Z">
+    <test name="LogIN" duration-ms="1250" started-at="2019-03-29T14:18:09Z" finished-at="2019-03-29T14:18:10Z">
       <class name="com.Bank.testcases.BankManagerLoginTest">
-        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.Bank.testcases.BankManagerLoginTest@740cae06]" name="loginAsBankManager" duration-ms="738" started-at="2019-03-29T14:42:16Z" finished-at="2019-03-29T14:42:17Z">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.Bank.testcases.BankManagerLoginTest@f78a47e]" name="loginAsBankManager" duration-ms="774" started-at="2019-03-29T16:18:09Z" finished-at="2019-03-29T16:18:09Z">
           <reporter-output>
             <line>
-              <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\loginAsBankManagerFri_Mar_29_14_42_17_EET_2019.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\loginAsBankManagerFri_Mar_29_14_42_17_EET_2019.png height=200 width=200>Passed Screenshot</a><br>]]>
+              <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\target\surefire-reports\html\loginAsBankManagerFri_Mar_29_16_18_09_EET_2019.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\target\surefire-reports\html\loginAsBankManagerFri_Mar_29_16_18_09_EET_2019.png height=200 width=200>Passed Screenshot</a><br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginAsBankManager -->
       </class> <!-- com.Bank.testcases.BankManagerLoginTest -->
     </test> <!-- LogIN -->
-    <test name="AddCustomer" duration-ms="1583" started-at="2019-03-29T12:42:17Z" finished-at="2019-03-29T12:42:19Z">
+    <test name="AddCustomer" duration-ms="1642" started-at="2019-03-29T14:18:10Z" finished-at="2019-03-29T14:18:12Z">
       <class name="com.Bank.testcases.AddCustomerTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Bank.testcases.AddCustomerTest@7161d8d1]" name="setUp" is-config="true" duration-ms="5439" started-at="2019-03-29T14:42:11Z" finished-at="2019-03-29T14:42:16Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Bank.testcases.AddCustomerTest@1cf6d1be]" name="setUp" is-config="true" duration-ms="5606" started-at="2019-03-29T16:18:03Z" finished-at="2019-03-29T16:18:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bank.testcases.AddCustomerTest@7161d8d1]" name="addCustomer" duration-ms="964" started-at="2019-03-29T14:42:17Z" data-provider="getData" finished-at="2019-03-29T14:42:18Z">
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bank.testcases.AddCustomerTest@1cf6d1be]" name="addCustomer" duration-ms="994" started-at="2019-03-29T16:18:10Z" data-provider="getData" finished-at="2019-03-29T16:18:11Z">
           <params>
             <param index="0">
               <value>
@@ -59,11 +59,11 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\addCustomerFri_Mar_29_14_42_18_EET_2019.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\addCustomerFri_Mar_29_14_42_18_EET_2019.png height=200 width=200>Passed Screenshot</a><br>]]>
+              <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\target\surefire-reports\html\addCustomerFri_Mar_29_16_18_11_EET_2019.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\target\surefire-reports\html\addCustomerFri_Mar_29_16_18_11_EET_2019.png height=200 width=200>Passed Screenshot</a><br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Bank.testcases.AddCustomerTest@7161d8d1]" name="tearDown" is-config="true" duration-ms="959" started-at="2019-03-29T14:42:19Z" finished-at="2019-03-29T14:42:20Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Bank.testcases.AddCustomerTest@1cf6d1be]" name="tearDown" is-config="true" duration-ms="4621" started-at="2019-03-29T16:18:12Z" finished-at="2019-03-29T16:18:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

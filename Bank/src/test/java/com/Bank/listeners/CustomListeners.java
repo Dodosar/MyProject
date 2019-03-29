@@ -10,13 +10,10 @@ import com.Bank.Utilitus.TestUtil;
 
 public class CustomListeners implements ITestListener{
 	
-	public static String path;
-
-	
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
 		TestUtil.captureScreenshot(result);
-		Reporter.log("<a target=\"_blank\" href=" + TestUtil.path + "><img src=" + TestUtil.path + " height=200 width=200>Passed Screenshot</a>" + "<br>");
+		Reporter.log("<a target=\"_blank\" href=" + TestUtil.path + "><img src=" + TestUtil.path + " height=200 width=200>Start Test Screenshot</a>" + "<br>");
 	}
 
 
@@ -30,13 +27,13 @@ public class CustomListeners implements ITestListener{
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
 		TestUtil.captureScreenshot(result);
-		Reporter.log("<a target=\"_blank\" href=" + TestUtil.path + "><img src=" + TestUtil.path + " height=200 width=200>Passed Screenshot</a>" + "<br>");
+		Reporter.log("<a target=\"_blank\" href=" + TestUtil.path + "><img src=" + TestUtil.path + " height=200 width=200>Failed Screenshot</a>" + "<br>");
 	}
 
 	public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
 		TestUtil.captureScreenshot(result);
-		Reporter.log("<a target=\"_blank\" href=" + TestUtil.path + "><img src=" + TestUtil.path + " height=200 width=200>Passed Screenshot</a>" + "<br>");
+		Reporter.log("<a target=\"_blank\" href=" + TestUtil.path + "><img src=" + TestUtil.path + " height=200 width=200>Skipped Screenshot</a>" + "<br>");
 	}
 
 

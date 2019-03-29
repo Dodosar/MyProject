@@ -21,7 +21,7 @@ public class TestUtil extends TestBase{
 			Date d = new Date(); 
 			TakesScreenshot ts = (TakesScreenshot) driver;
 			File source = ts.getScreenshotAs(OutputType.FILE);
-			file = new File(System.getProperty("user.dir") + "\\src\\test\\resources\\screensShots" + "\\" + screenshotName	+ d.toString().replace(":", "_").replace(" ", "_") + ".png");
+			file = new File(System.getProperty("user.dir") + "\\target\\surefire-reports\\html" + "\\" + screenshotName	+ d.toString().replace(":", "_").replace(" ", "_") + ".png");
 			FileUtils.copyFile(source,file);
 			String ESCAPE_PROPERTY = "org.uncommons.reportng.escape-output";
 			System.setProperty(ESCAPE_PROPERTY, "false");
