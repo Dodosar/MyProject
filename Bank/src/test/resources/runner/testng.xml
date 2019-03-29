@@ -6,14 +6,14 @@
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 		<listener class-name="com.Bank.listeners.CustomListeners" />
 	</listeners>
-  <test thread-count="5" name="LogIN">
+  <test name="LogIN">
     <classes>
       <class name="com.Bank.testcases.BankManagerLoginTest"/>
     </classes>
-  </test> <!-- Test -->
-    <test thread-count="5" name="AddCustomer">
+    </test>
+   <test  name="AddCustomer">
     <classes>
       <class name="com.Bank.testcases.AddCustomerTest"/>
     </classes>
   </test>
-</suite> <!-- Suite -->
+</suite> 

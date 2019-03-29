@@ -11,8 +11,10 @@ import com.Bank.base.TestBase;
 
 public class AddCustomerTest extends TestBase{
 	
-	@Test(dataProvider="getData")
+	@Test(priority = 1,dataProvider="getData")
 	public void addCustomer(String firstname, String lastname, String postcode,String alerttext) throws InterruptedException {
+		
+		log.debug("inside AddCustomer Test");
 		driver.findElement(By.cssSelector(OR.getProperty("addCustBtn"))).click();		
 		driver.findElement(By.cssSelector(OR.getProperty("firstname"))).sendKeys(firstname);
 		driver.findElement(By.cssSelector(OR.getProperty("lastname"))).sendKeys(lastname);
@@ -23,9 +25,8 @@ public class AddCustomerTest extends TestBase{
 		 
 		 Assert.assertTrue(alert.getText().contains(alerttext));
 		 
-		 alert.accept();
-		 
-		 Thread.sleep(3000);
+		 alert.accept();		 
+
 	}
 	
 	@DataProvider

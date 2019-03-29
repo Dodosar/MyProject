@@ -73,7 +73,7 @@ public class TestBase {
 			}
 			try {
 				OR.load(fis);
-				log.debug("Config file loaded!!!");
+				log.debug("OR file loaded!!!");
 			} catch (IOException e) {
 				e.printStackTrace();
 			}	
@@ -130,61 +130,9 @@ public class TestBase {
 		}
 		catch(NoSuchElementException e)  {
 			return false;
-		}		
-		
+		}				
 
-	}
-	
-	//@AfterMethod(alwaysRun = true)
-	/*public static void takeScreenShot(ITestResult result) {
-			if(!result.isSuccess()) {
-				String a = result.getMethod().getMethodName().toString();
-				try {
-					if (new File(a).exists()) {
-						a = String.format(result.getMethod().getMethodName().toString() + "%d", b++);
-						captureScreenshot(driver, a);
-					} else {
-						captureScreenshot(driver, a);
-					}
-				} catch (Exception e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}	
-
-		}
-			else {
-				String a = result.getMethod().getMethodName().toString();
-				captureScreenshot(driver, a);
-			}
-	}
-	
-	
-	
-	public static void captureScreenshot(WebDriver driver, String screenshotName ) {
-		try {
-			TakesScreenshot ts = (TakesScreenshot) driver;
-			File source = ts.getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(source, new File("D:\\Selenium\\Screens" + "\\" + screenshotName	+ ".png"));
-			String ESCAPE_PROPERTY = "org.uncommons.reportng.escape-output";
-			System.setProperty(ESCAPE_PROPERTY, "false");
-			String path = "D:\\Selenium\\Screens" + "\\" + screenshotName
-					 + ".png";
-			String test = "<a target=\"_blank\" href=\\" +  path + "\\><img src=\\" + path + "\\" + " height=200 width=200>click to open screenshot of "
-					+ screenshotName + "</a>";
-			Reporter.log("TEST CASE");
-			Reporter.log(screenshotName + test + "<br>");
-			Reporter.log("<br>");			
-			
-		}
-
-		catch (Exception e) {
-			System.out.println("Exception while taking screenshot "
-					+ e.getMessage());
-		}
-		
-	}*/
-	
-
+	}	
 	
 
 

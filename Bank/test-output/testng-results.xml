@@ -2,39 +2,39 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[<a target="_blank" href=D:\Selenium\Screens\loginAsBankManager.png><img src=D:\Selenium\Screens\loginAsBankManager.png height=200 width=200>Passed Screenshot</a><br>]]>
+      <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\loginAsBankManager.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\loginAsBankManager.png height=200 width=200>Passed Screenshot</a><br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=D:\Selenium\Screens\loginAsBankManager.png><img src=D:\Selenium\Screens\loginAsBankManager.png height=200 width=200>Passed Screenshot</a><br>]]>
+      <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\loginAsBankManager.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\loginAsBankManager.png height=200 width=200>Passed Screenshot</a><br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=D:\Selenium\Screens\addCustomer.png><img src=D:\Selenium\Screens\addCustomer.png height=200 width=200>Passed Screenshot</a><br>]]>
+      <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\addCustomer.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\addCustomer.png height=200 width=200>Passed Screenshot</a><br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=D:\Selenium\Screens\addCustomer.png><img src=D:\Selenium\Screens\addCustomer.png height=200 width=200>Passed Screenshot</a><br>]]>
+      <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\addCustomer.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\addCustomer.png height=200 width=200>Passed Screenshot</a><br>]]>
     </line>
   </reporter-output>
-  <suite name="Bank" duration-ms="5698" started-at="2019-03-29T10:17:33Z" finished-at="2019-03-29T10:17:38Z">
+  <suite name="Bank" duration-ms="2685" started-at="2019-03-29T12:14:00Z" finished-at="2019-03-29T12:14:03Z">
     <groups>
     </groups>
-    <test name="LogIN" duration-ms="1240" started-at="2019-03-29T10:17:33Z" finished-at="2019-03-29T10:17:34Z">
+    <test name="LogIN" duration-ms="1131" started-at="2019-03-29T12:14:00Z" finished-at="2019-03-29T12:14:01Z">
       <class name="com.Bank.testcases.BankManagerLoginTest">
-        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.Bank.testcases.BankManagerLoginTest@7ce026d3]" name="loginAsBankManager" duration-ms="747" started-at="2019-03-29T12:17:33Z" finished-at="2019-03-29T12:17:34Z">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.Bank.testcases.BankManagerLoginTest@740cae06]" name="loginAsBankManager" duration-ms="705" started-at="2019-03-29T14:14:00Z" finished-at="2019-03-29T14:14:01Z">
           <reporter-output>
             <line>
-              <![CDATA[<a target="_blank" href=D:\Selenium\Screens\loginAsBankManager.png><img src=D:\Selenium\Screens\loginAsBankManager.png height=200 width=200>Passed Screenshot</a><br>]]>
+              <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\loginAsBankManager.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\loginAsBankManager.png height=200 width=200>Passed Screenshot</a><br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginAsBankManager -->
       </class> <!-- com.Bank.testcases.BankManagerLoginTest -->
     </test> <!-- LogIN -->
-    <test name="AddCustomer" duration-ms="4438" started-at="2019-03-29T10:17:34Z" finished-at="2019-03-29T10:17:38Z">
+    <test name="AddCustomer" duration-ms="1534" started-at="2019-03-29T12:14:01Z" finished-at="2019-03-29T12:14:03Z">
       <class name="com.Bank.testcases.AddCustomerTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Bank.testcases.AddCustomerTest@548a24a]" name="setUp" is-config="true" duration-ms="5675" started-at="2019-03-29T12:17:27Z" finished-at="2019-03-29T12:17:33Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Bank.testcases.AddCustomerTest@7161d8d1]" name="setUp" is-config="true" duration-ms="5898" started-at="2019-03-29T14:13:54Z" finished-at="2019-03-29T14:14:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bank.testcases.AddCustomerTest@548a24a]" name="addCustomer" duration-ms="3974" started-at="2019-03-29T12:17:34Z" data-provider="getData" finished-at="2019-03-29T12:17:38Z">
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bank.testcases.AddCustomerTest@7161d8d1]" name="addCustomer" duration-ms="924" started-at="2019-03-29T14:14:01Z" data-provider="getData" finished-at="2019-03-29T14:14:02Z">
           <params>
             <param index="0">
               <value>
@@ -59,11 +59,11 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a target="_blank" href=D:\Selenium\Screens\addCustomer.png><img src=D:\Selenium\Screens\addCustomer.png height=200 width=200>Passed Screenshot</a><br>]]>
+              <![CDATA[<a target="_blank" href=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\addCustomer.png><img src=C:\Users\tyudm\git\ProjectBankManager\Bank\src\test\resources\screensShots\addCustomer.png height=200 width=200>Passed Screenshot</a><br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Bank.testcases.AddCustomerTest@548a24a]" name="tearDown" is-config="true" duration-ms="1522" started-at="2019-03-29T12:17:38Z" finished-at="2019-03-29T12:17:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Bank.testcases.AddCustomerTest@7161d8d1]" name="tearDown" is-config="true" duration-ms="1154" started-at="2019-03-29T14:14:03Z" finished-at="2019-03-29T14:14:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

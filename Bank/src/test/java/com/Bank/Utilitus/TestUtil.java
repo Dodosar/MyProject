@@ -19,10 +19,10 @@ public class TestUtil extends TestBase{
 			
 			TakesScreenshot ts = (TakesScreenshot) driver;
 			File source = ts.getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(source, new File("D:\\Selenium\\Screens" + "\\" + screenshotName	+ ".png"));
+			FileUtils.copyFile(source, new File(System.getProperty("user.dir") + "\\src\\test\\resources\\screensShots" + "\\" + screenshotName	+ ".png"));
 			String ESCAPE_PROPERTY = "org.uncommons.reportng.escape-output";
 			System.setProperty(ESCAPE_PROPERTY, "false");
-			path = "D:\\Selenium\\Screens" + "\\" + screenshotName
+			path = System.getProperty("user.dir") + "\\src\\test\\resources\\screensShots" + "\\" + screenshotName
 					 + ".png";				
 		}
 
