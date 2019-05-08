@@ -1,7 +1,7 @@
-16:18:03,556 DEBUG devpinoyLogger<strong>{1}</strong>:63 - Config file loaded!!!
-16:18:03,558 DEBUG devpinoyLogger<strong>{1}</strong>:76 - OR file loaded!!!
-16:18:06,550 DEBUG devpinoyLogger<strong>{1}</strong>:94 - Chrome Opened!!!
-16:18:08,113 DEBUG devpinoyLogger<strong>{1}</strong>:117 - Navigae to :http://www.way2automation.com/angularjs-protractor/banking/#/login
-16:18:09,630 DEBUG devpinoyLogger<strong>{1}</strong>:14 - Inside Login Test
-16:18:09,938 DEBUG devpinoyLogger<strong>{1}</strong>:19 - Successfully executed
-16:18:10,874 DEBUG devpinoyLogger<strong>{1}</strong>:17 - inside AddCustomer Test
+14:27:56,146 DEBUG devpinoyLogger<strong>{1}</strong>:63 - Config file loaded!!!
+14:27:56,149 DEBUG devpinoyLogger<strong>{1}</strong>:76 - OR file loaded!!!
+14:28:00,709 DEBUG devpinoyLogger<strong>{1}</strong>:94 - Chrome Opened!!!
+14:28:01,939 DEBUG devpinoyLogger<strong>{1}</strong>:117 - Navigae to :http://www.way2automation.com/angularjs-protractor/banking/#/login
+14:28:03,471 DEBUG devpinoyLogger<strong>{1}</strong>:14 - Inside Login Test
+14:28:03,873 DEBUG devpinoyLogger<strong>{1}</strong>:19 - Successfully executed
+14:28:04,792 DEBUG devpinoyLogger<strong>{1}</strong>:17 - inside AddCustomer Test
