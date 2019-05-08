@@ -19,6 +19,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import com.Bank.Utilitus.ExcelReader;
+import com.Bank.Utilitus.ExtentManager;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+
 import org.apache.log4j.Logger;
 
 
@@ -47,6 +51,8 @@ public class TestBase {
 	public static WebDriverWait wait;
 	public static int b;
 	private static TestBase instance  = null;
+	public ExtentReports rep = ExtentManager.getInstance();
+	public static ExtentTest test;
 	
 
 	@BeforeSuite(alwaysRun = true)
